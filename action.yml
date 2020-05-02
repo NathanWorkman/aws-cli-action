@@ -1,0 +1,9 @@
+name: 'AWS CLI'
+author: NathanWorkman
+description: 'GitHub Action for AWS CLI'
+branding:
+  icon: 'terminal'
+  color: 'yellow'
+runs:
+  using: docker
+  image: Dockerfile
